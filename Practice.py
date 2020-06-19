@@ -43,5 +43,30 @@ cpm_3 = price_3 / nom_3
 print(cpm_3)
 
 # Find minumim of three
-economical_rate = min(cpm_1,cpm_2,cpm_3)
+economical_rate = min(cpm_1, cpm_2, cpm_3)
 print(economical_rate)
+
+
+# Problem 2
+# Using python programming, help calculate the interest amount your friend needs to give.
+#
+# Instructions
+# The principal amount, rate of interest and time period are stored in the variables principal,
+# rate and time respectively
+# Apply the formula of simple interest and store the result in a variable called 'simple_int'
+
+# Principal amount
+principal=150000
+
+# Rate of interest
+rate= 12
+
+# Time period
+time=2
+
+# Calculate simple interest
+simple_int = (principal * rate * time) / 100
+
+
+# Print simple interest amount
+print(simple_int)
