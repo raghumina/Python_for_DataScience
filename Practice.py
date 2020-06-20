@@ -70,3 +70,4 @@ simple_int = (principal * rate * time) / 100
 
 # Print simple interest amount
 print(simple_int)
+
