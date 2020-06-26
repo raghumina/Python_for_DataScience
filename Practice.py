@@ -71,3 +71,21 @@ simple_int = (principal * rate * time) / 100
 # Print simple interest amount
 print(simple_int)
 
+
+
+# 1. Factorial of an Integer
+# The factorial of an integer is calculated by multiplying the integers from 1 to that number.
+# For example, the factorial of 10 will be 1*2*3….*10.
+
+
+def factorial(n):
+    result = 1
+
+    for i in range(1, n + 1):
+        result = result * i
+
+    return result
+
+print(f'Factorial of 10 = {factorial(10)}')
+print(f'Factorial of 5 = {factorial(5)}')
+
