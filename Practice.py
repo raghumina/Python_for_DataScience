@@ -46,7 +46,6 @@ print(cpm_3)
 economical_rate = min(cpm_1, cpm_2, cpm_3)
 print(economical_rate)
 
-
 # Problem 2
 # Using python programming, help calculate the interest amount your friend needs to give.
 #
@@ -56,21 +55,19 @@ print(economical_rate)
 # Apply the formula of simple interest and store the result in a variable called 'simple_int'
 
 # Principal amount
-principal=150000
+principal = 150000
 
 # Rate of interest
-rate= 12
+rate = 12
 
 # Time period
-time=2
+time = 2
 
 # Calculate simple interest
 simple_int = (principal * rate * time) / 100
 
-
 # Print simple interest amount
 print(simple_int)
-
 
 
 # 1. Factorial of an Integer
@@ -86,6 +83,32 @@ def factorial(n):
 
     return result
 
+
 print(f'Factorial of 10 = {factorial(10)}')
 print(f'Factorial of 5 = {factorial(5)}')
 
+
+# The Fibonacci series is the sequence of numbers where each number is the sum of two preceding numbers. For example – 1, 1, 2, 3, 5, 8, 13, 21 and so on.
+#
+# Let’s look at a function to return Fibonacci series numbers using loops.
+#
+
+def fibonacci(n):
+    """ Returns Fibonacci Number at nth position using loop"""
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    i1 = 0
+    i2 = 1
+
+
+    num = 1
+    for x in range(1, n):
+        num = i1 + i2
+        i1 = i2
+        i2 = num
+    return num
+
+for i in range(10):
+    print(fibonacci(i), end=" ")
