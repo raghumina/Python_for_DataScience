@@ -148,13 +148,20 @@ print(type_name)
 #
 # Print out interest using the print() function.
 
+# Code starts here
+
 # store variable names
 n = 2
 P = 1000
 r = 10
 
 # compound interest formula
-A = P(1 + r / 100)**2
+A =  P*(1 + (r / 100))**n
 
 # display compound interest
 print(A)
+
+# display interest
+interest = A - P
+print(interest)
+# Code ends here
