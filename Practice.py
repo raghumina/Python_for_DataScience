@@ -2,7 +2,7 @@
 # i am practicing a lot of python problems
 # problems may be or may not be related to data Science
 
-
+'''
 # Problem 1
 # Best cellular plan
 # Find the most economical cellular plan in terms of cheapest per minute calling cost
@@ -102,7 +102,6 @@ def fibonacci(n):
     i1 = 0
     i2 = 1
 
-
     num = 1
     for x in range(1, n):
         num = i1 + i2
@@ -110,5 +109,52 @@ def fibonacci(n):
         i2 = num
     return num
 
+
 for i in range(10):
     print(fibonacci(i), end=" ")
+
+#
+
+# Assign value of 12 to a new variable 'age' and "John" to 'name'.
+# Save the type of age using type(age) and save it to a variable type_age
+# Similarly save the type of name to a variable type_name
+# Print out the variables type_age and type_name using the print() function
+
+age = 12
+name = "John"
+type_age = type(age)
+type_name = type(name)
+print(type_age)
+print(type_name)
+'''
+#
+# Calculate the Compound Interest
+# In this problem, you will calculate the compound interest (C.I.).
+# Remember that the formula for compound interest for the amount after n years is
+# A = P(1 + r/100)^n
+# A=P(1+r/100)
+# n
+#
+# Here, A is the Amount after n years, r is the rate of interest, and P is the principal.
+#
+# Your task is to calculate the amount after two years on a principal amount of USD 1000 at the rate of 10 % p.a.
+#
+# Instructions
+# Store principal, rate of interest and time in variables P, r, and n respectively.
+#
+# Now calculate the amount according to the formula given above and save it in a variable A.
+#
+# Calculate A - P and store the result in a variable called interest.
+#
+# Print out interest using the print() function.
+
+# store variable names
+n = 2
+P = 1000
+r = 10
+
+# compound interest formula
+A = P(1 + r / 100)**2
+
+# display compound interest
+print(A)
