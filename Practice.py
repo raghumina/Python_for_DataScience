@@ -199,3 +199,10 @@ print(interest)
 # Second element of split should be "Python".
 
 #
+name  = "Monty"
+title = "Python"
+full_name = name + title
+print(full_name)
+first_name = full_name[0:5]
+print(first_name)
+
