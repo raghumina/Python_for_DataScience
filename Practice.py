@@ -126,7 +126,7 @@ type_age = type(age)
 type_name = type(name)
 print(type_age)
 print(type_name)
-'''
+
 #
 # Calculate the Compound Interest
 # In this problem, you will calculate the compound interest (C.I.).
@@ -164,4 +164,38 @@ print(A)
 # display interest
 interest = A - P
 print(interest)
+
 # Code ends here
+'''
+
+# PROBLEM
+#
+# You are given two strings, "Monty" and "Python".
+# Follow the instructions below to carry out string operations like concatenation, indexing, slicing, etc.:
+#
+# Two variables name and title with values "Monty" and "Python", are given.
+#
+# Conatenate (+) name and title and save it to variable called full_name. (Note:
+# Add a whitespace between name and title while concatenating)
+#
+# Use slicing to pick up the first name from full_name and save it to a first_name variable.
+#
+# Calculate the length of the full name using the len() function. Subtract 1 from it
+# (so that you get rid of the whitespace) and save it to a len_name variable.
+#
+# Check whether the alphabet "f" is in the full name and save it to a is_f variable.
+#
+# Now, split the full name back into first name and title using the .split() method on the full_name variable.
+# Save it to a split variable. The output will come as a list which is another important data structure.
+# You will learn more about it in the next chapter.
+#
+# Print the full_name, first_name, len_name, is_f and split variable to check your results.
+#
+# Test Cases: The value of full_name should be "Monty Python".
+# The value of first_name should be "Monty".
+# The value of len_name should be 11.
+# The value of is_f should be False.
+# First element of split should be "Monty".
+# Second element of split should be "Python".
+
+#
