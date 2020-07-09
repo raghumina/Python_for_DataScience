@@ -223,4 +223,3 @@ print(is_f)
 # Split into first name and title
 split1 = full_name.split()
 print(split1)
-
