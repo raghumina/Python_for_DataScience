@@ -2,6 +2,7 @@
 # initial list
 scores = [80,90,95,100]
 
+
 # memory location of initial list
 print('Memory loaction initially is ' , id(scores))
 print('='*20)
