@@ -1,2 +1,2 @@
 # Python_for_DataScience
- Python_and_DataScience_Baics_and_various_Libraries
+ Python for Data Science and various libraries used in it 
