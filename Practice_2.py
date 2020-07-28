@@ -27,6 +27,7 @@ print('Memory location of modified list is ' , id(scores))
 #
 # Save the maximum weight from the list using the max() method to a maximum variable. Print it out.
 #
+
 # Suddenly, you realize that you have wrongly entered 45 and that should be 48. So,
 # it's time to replace the wrong weight with the correct one. Since 45 is in the second index,
 # use weights[2] = 48 to replace the value. Display the weights using print()
@@ -36,3 +37,14 @@ print('Memory location of modified list is ' , id(scores))
 # Calculate the mean of their weights using the formula sum / number of elements and save it to a variable mean.
 # Print this out too.
 
+# lets start
+
+weights = [70,80, 45, 50]
+print(max(weights))
+
+weights[2] = 48
+print(weights)
+
+# we can do it we can do it
+# we can go for it
+# we can
