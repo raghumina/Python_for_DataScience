@@ -17,3 +17,33 @@
 # Perform exponentiation (x^yx
 # y
 #  ), Save it to an exponent variable and print out the result.
+
+
+
+
+
+
+
+
+
+
+
+
+# x=15
+# y=4
+
+# Code starts here
+
+# addition
+
+
+# subtractiom
+
+
+# multiplication
+
+
+# division
+
+
+# integer division
