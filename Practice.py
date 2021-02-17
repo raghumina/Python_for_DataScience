@@ -198,23 +198,28 @@ print(interest)
 # First element of split should be "Monty".
 # Second element of split should be "Python".
 
+
 #
 # initialize variables
 name, title = 'Monty', 'Python'
 
 # Code starts here
 
+
 # full name
 full_name = name + ' ' + title
 print(full_name)
+
 
 # first name
 first_name = full_name[:5]
 print(first_name)
 
+
 # length of full name
 len_name = len(full_name) - 1
 print(len_name)
+
 
 # Is "f" in full name?
 is_f = 'f' in full_name
